@@ -220,7 +220,7 @@ window.onload = function () {
     //On Input Change Events
     name.addEventListener("input", function () {
       if (name.value.length == 0) {
-        document.getElementById("svgname").innerHTML = "John Doe";
+        document.getElementById("svgname").innerHTML = "xxxx xxxx xxxx xxxx xxxx";
         document.getElementById("svgnameback").innerHTML = "John Doe";
       } else {
         document.getElementById("svgname").innerHTML = this.value;
@@ -230,7 +230,7 @@ window.onload = function () {
   
     cardnumber_mask.on("accept", function () {
       if (cardnumber_mask.value.length == 0) {
-        document.getElementById("svgnumber").innerHTML = "0123 4567 8910 1112";
+        document.getElementById("svgnumber").innerHTML = "xxxx xxxx xxxx xxxx xxxx";
       } else {
         document.getElementById("svgnumber").innerHTML = cardnumber_mask.value;
       }
